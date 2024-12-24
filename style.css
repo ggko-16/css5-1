@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #07081A;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 200px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 200px;
+    border-bottom: 1px solid #261C51;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    color: #fff;
+    margin-left: 12px;
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.lists a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+}
+
+#firstItem {
+    color: #B968DE;
+}
+
+/* main */
+
+main {
+    flex-direction: column;
+}
+
+.topSide {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    flex-direction: column;
+    margin: 88px 0;
+}
+
+
+.topSide h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+}
+
+.topSide p {
+    color: #C0C0C0;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+.topSide button {
+    border-radius: 8px;
+    background: #9100D3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* companies */
+
+.companies {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 72px 24px 72px;
+    gap: 90px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+}
+
+#lastCompany {
+    margin: 0;
+}
+
+.company h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 8px;
+}
+
+/* cards */
+
+.cards {
+    margin: 88px 0;
+    width: 100%;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 304px;
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: 1px solid #261C51;
+}
+
+.card h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 200px;
+    border-top: 1px solid #261C51;
+}
+
+footer div {
+    display: flex;
+    gap: 24px;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
